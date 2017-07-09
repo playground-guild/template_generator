@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="./custom.css" rel="stylesheet">
+
+<title>{% block title %}Guild Events...{% endblock %}</title>
+</head>
+
+<body>
+	<div id="content">
+		{% block content %}{% endblock %}
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<div class="row col-md-12">
+				<!--  {% block footer %} 
+					Copyright 2017
+				{% endblock %}  -->
+			</div>
+		</div>
+	</div>
+
+	<script src="./libs/bootstrap/js/jquery.min.js"></script>
+	<script src="./libs/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
